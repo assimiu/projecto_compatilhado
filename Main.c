@@ -6,11 +6,12 @@
 /*   By: amane <amane@studente.42lisboa.com>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/22 09:56:07 by amane             #+#    #+#             */
-/*   Updated: 2022/05/25 09:03:53 by amane            ###   ########.fr       */
+/*   Updated: 2022/06/03 10:39:40 by amane            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
+#include <stdio.h>
 
 int	main(void)
 {
@@ -23,7 +24,6 @@ int	main(void)
 
 	printf("\n+++Compilacao+++\n");
 	o = open("txt.txt", O_RDONLY);
-	printf("%s", get_next_line(o));
 	printf("%s", get_next_line(o));
 	printf("%s", get_next_line(o));
 	printf("%s", get_next_line(o));

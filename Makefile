@@ -4,6 +4,7 @@ RM = rm -fr
 BB = ar -rcs
 
 SRC = get_next_line_utils.c get_next_line.c
+
 OBJ = $(SRC:.c=.o)
 
 all: $(NAME)
